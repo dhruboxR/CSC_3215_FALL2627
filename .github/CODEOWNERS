@@ -1,6 +1,2 @@
-
-# Require Dhrubo's review for all project files
 * @dhruboxR
-
-# Protect the CODEOWNERS rules themselves
 /.github/ @dhruboxR
