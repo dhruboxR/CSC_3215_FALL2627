@@ -1,0 +1,42 @@
+/* BASIC PAGE SETTINGS */ 
+* {
+    margin: 0;  /*removes default outer spacing*/
+    padding: 0; /*removes default inner spacing*/
+    box-sizing: border-box; /*applies padding and borders within an element's declared width and height*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222; 
+    background-color: #f5f7fb; 
+    line-height: 1.6;
+}
+
+/*NAVIGATION BAR*/
+.navbar {
+    display: flex;      /*places the logo and navigation list next to each other in a row*/
+    justify-content: space-between; /*pushes the logo->left and navigation links->right*/
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #355aa4;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {      /*styling the links*/
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {        /*mouse hover effect -> changes into blue if hovered over*/
+    color: #60a5fa;
+}
