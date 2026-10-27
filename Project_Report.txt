@@ -1,0 +1,181 @@
+# Project Report
+## Xenos Technologies — Innovative Software Solutions
+
+### 1. Introduction
+
+Xenos Technologies is a proposed software company that aims to provide modern, reliable, and user-friendly digital solutions to individuals, businesses, and organizations. The company focuses on developing websites, custom software, mobile applications, and attractive user interfaces to help clients solve problems and improve their digital presence.
+
+The purpose of this project is to develop a web-based company management system using HTML and CSS as part of the Web Technologies course. The website will provide a public landing page where visitors can learn about the company and its services. It will also contain separate login, registration, and homepage interfaces for four departments.
+
+### 2. Project Objectives
+
+- Develop a professional landing page for Xenos Technologies.
+- Present the company's services and information clearly.
+- Create separate login and registration pages for four departments.
+- Design a dedicated homepage for each department.
+- Provide a structured and user-friendly interface for department-specific activities.
+- Apply HTML and CSS concepts, including Flexbox, external stylesheets, hover effects, responsive design, and form styling.
+
+### 3. Company Departments and Their Deliverables
+
+#### Department 1: Web Development
+
+**Purpose:** To design, develop, and maintain websites and web applications.
+
+**Deliverables:**
+- Business websites and landing pages.
+- Responsive web interfaces for desktop and mobile devices.
+- Website layouts and navigation systems.
+- Frontend development and website maintenance.
+
+**Dedicated pages:**
+- Web Development Registration
+- Web Development Login
+- Web Development Homepage
+
+The department homepage will introduce its services and provide access to website projects, development activities, and related information.
+
+#### Department 2: Software Development
+
+**Purpose:** To develop customized software systems that address specific business and organizational needs.
+
+**Deliverables:**
+- Business management systems.
+- Database-driven applications.
+- Automation tools and software utilities.
+- Maintenance and improvement of existing software.
+
+**Dedicated pages:**
+- Software Development Registration
+- Software Development Login
+- Software Development Homepage
+
+The department homepage will present its software services and provide access to project information, software development activities, and related resources.
+
+#### Department 3: Mobile App Development
+
+**Purpose:** To create mobile applications that make digital services accessible through smartphones and other mobile devices.
+
+**Deliverables:**
+- Android and iOS application development.
+- Mobile application interface implementation.
+- Mobile-friendly features and functionality.
+- Application testing and maintenance.
+
+**Dedicated pages:**
+- Mobile App Development Registration
+- Mobile App Development Login
+- Mobile App Development Homepage
+
+The department homepage will showcase mobile application services and provide access to application projects, development information, and related activities.
+
+#### Department 4: UI/UX Design
+
+**Purpose:** To create attractive, accessible, and easy-to-use digital interfaces that improve the user experience.
+
+**Deliverables:**
+- Website and application interface designs.
+- Wireframes and visual layouts.
+- User-friendly navigation and page structures.
+- Consistent colors, typography, and design components.
+
+**Dedicated pages:**
+- UI/UX Design Registration
+- UI/UX Design Login
+- UI/UX Design Homepage
+
+The department homepage will present the design team's services, showcase interface design work, and provide access to design-related information.
+
+### 4. Website Structure
+
+The proposed website will contain the following pages and sections.
+
+**A. Public Landing Page**
+
+The main landing page will be accessible to visitors without logging in. It will contain:
+
+- Company name and branding.
+- Introduction to Xenos Technologies.
+- Navigation menu: Home, Services, About, and Contact.
+- Overview of the four departments and their services.
+- Login and registration options.
+- Contact information and footer.
+
+**B. Department-Specific Pages**
+
+Each of the four departments will have its own set of pages:
+
+1. Registration page — collects the information required to register for that department.
+2. Login page — provides the interface for existing users to enter their credentials.
+3. Department homepage — presents the department's services, activities, and relevant information.
+
+In total, the planned structure includes one public landing page and twelve department-specific pages, making thirteen pages altogether.
+
+### 5. User Access and Department Separation
+
+Each department will have its own login and registration interfaces and a dedicated homepage. The pages will be designed to reflect the department's purpose and responsibilities.
+
+The intended structure is:
+
+| Department | Registration | Login | Homepage |
+|---|---|---|---|
+| Web Development | Separate page | Separate page | Dedicated page |
+| Software Development | Separate page | Separate page | Dedicated page |
+| Mobile App Development | Separate page | Separate page | Dedicated page |
+| UI/UX Design | Separate page | Separate page | Dedicated page |
+
+This separation will make the system easier to navigate and allow each department to have an interface relevant to its work.
+
+### 6. Technologies Used
+
+- **HTML5:** To structure the website content and pages.
+- **CSS3:** To style the pages, forms, navigation menus, and service cards.
+- **Flexbox:** To arrange interface elements and service cards.
+- **Responsive CSS:** To make the interface adaptable to different screen sizes.
+- **External CSS:** To maintain consistent styling and keep presentation separate from HTML.
+
+The initial version will focus on frontend design. Functional authentication, database connectivity, and secure role-based access will require additional implementation beyond HTML and CSS.
+
+### 7. Expected Outcome
+
+The expected outcome is a professional, organized, and user-friendly website for Xenos Technologies. Visitors will be able to explore the company's services, while the four departments will have distinct registration pages, login pages, and homepages.
+
+The project will demonstrate fundamental web design skills and establish a foundation for adding backend functionality and more advanced features in the future.
+
+### 8. Conclusion
+
+Xenos Technologies — Innovative Software Solutions is designed as a web-based company interface that demonstrates how a software company can organize its services into four specialized departments. By providing a public landing page and separate department interfaces, the project aims to combine professional presentation, clear navigation, and structured access to department-specific information.
+
+The project will be developed incrementally, beginning with the public landing page and continuing with the four departments' registration, login, and homepage interfaces.
+
+###  FILESYSTEM STRUCTURE : 
+
+Xenos-Technologies/
+│
+├── index.html
+├── style.css
+│
+├── web-development/
+│   ├── register.html
+│   ├── login.html
+│   └── home.html
+│
+├── software-development/
+│   ├── register.html
+│   ├── login.html
+│   └── home.html
+│
+├── mobile-app-development/
+│   ├── register.html
+│   ├── login.html
+│   └── home.html
+│
+├── ui-ux-design/
+│   ├── register.html
+│   ├── login.html
+│   └── home.html
+│
+└── css/
+    ├── style.css
+    ├── forms.css
+    └── department.css
