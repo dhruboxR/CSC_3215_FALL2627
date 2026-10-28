@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Jetbrains 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #222; 
     background-color: #f5f7fb; 
     line-height: 1.6;
@@ -39,4 +39,36 @@ body {
 
 .nav-links a:hover {        /*mouse hover effect -> changes into blue if hovered over*/
     color: #60a5fa;
+}
+
+/*HERO SECTION CSS*/ 
+
+.hero {                 /*targets the whole hero section*/
+    text-align: center;
+    padding : 100px 20px; 
+    background-color: #e8efff;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #101828;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
 }
