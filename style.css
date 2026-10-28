@@ -103,3 +103,22 @@ body {
     margin-bottom: 12px;
     color: #2563eb;
 }
+
+/* ABOUT SECTION */ 
+
+/* About section */
+.about {
+    padding: 60px 8%;
+    text-align: center;
+    background-color: #e8efff;
+}
+
+/*footer*/ 
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #101828;
+    color: white;
+}
