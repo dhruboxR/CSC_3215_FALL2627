@@ -72,3 +72,34 @@ body {
 .btn:hover {
     background-color: #1d4ed8;
 }
+
+/* services section */ 
+
+.services {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.services h2,       /*styling two heading together*/
+.about h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.service-container {        /*contains the 4 cards for services*/ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*two columns and 1 faraction of the available grid space*/ 
+    gap: 25px;
+}
+
+.service-card {                 /* css style for each of the card : same design*/ 
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08); /* no left or right, 3px downward offset, black with 0.08 opacity*/ 
+}
+
+.service-card h3 {
+    margin-bottom: 12px;
+    color: #2563eb;
+}
